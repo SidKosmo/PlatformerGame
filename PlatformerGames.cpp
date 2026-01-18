@@ -24,7 +24,7 @@ public:
         return { x, y, width, height };
     }
 
-    // Проверка коллизии с игроком
+    // Проверка коллизии с игроком тетс
     bool CheckCollision(const SDL_FRect& playerRect) const {
         if (isCollected) return false;
 
